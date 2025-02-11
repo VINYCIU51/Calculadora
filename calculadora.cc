@@ -107,7 +107,7 @@ double realizarCalculo(string calculo)
 int main()
 {
     string calculo;
-    cout << "calculadora v1.1 (Divisoes por 0 e calculos decimais fora de servico)\n\nInforme o calculo que deseja realizar: \n";
+    cout << "Informe o calculo que deseja realizar(ex: 2x(1+3): \n";
     getline(cin, calculo);
 
     double resultado = realizarCalculo(calculo);
